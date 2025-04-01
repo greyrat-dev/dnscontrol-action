@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Preview
-        uses: greyrat-dev/dnscontrol-action@v3
+        uses: greyrat-dev/dnscontrol-action
         env:
           CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
           CLOUDFLARE_API_USER: ${{ secrets.CLOUDFLARE_API_USER }}
